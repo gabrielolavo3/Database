@@ -1,0 +1,19 @@
+Locadora de automóveis
+
+Descrição do minimundo:
+Uma   locadora   de   automóveis   mantém   um   cadastro   de   todos   seus   usuários   com   as informações básicas: RG, nome, endereço, CNH e idade. Todo usuário cadastrado realizou pelo menos uma locação na empresa. Funcionários públicos a serviço representam um tipo especial de usuário que está associado com algum  órgão governamental que por sua  vez possui um contrato com a locadora.
+Cada carro da frota é registrado com vários atributos para sua descrição: número de chassi,placa, marca, modelo, ano e cor. Quando um usuário aluga um carro, são registradas data e hora de locação. No banco de dados, os carros da frota são organizados por categorias. Uma categoria é descrita por código, um nome de categoria (Ex: primeira classe), preço da diária da categoria e uma descrição das características dessa categoria. Todo carro pertence a uma categoria que  define  suas  características  e   o   preço   da   diária.  Algumas  categorias  podem apenas ter seus carros locados por usuários que são funcionários públicos a serviço. Para cada carro   da   frota   é   mantido   um   histórico   dos   concertos   realizados,   indicando   dia,   valor, descrição do serviço e oficina que o realizou.
+
+Entidades e Atributos
+
+USUÁRIO
+RG, Nome, Endereço, CNH, idade
+CARRO
+Número de chassi, Placa, Marca, Modelo, Ano, Cor e Data e hora de locação.
+CATEGORIA
+Código, Nome, Preço da diária e Descrição das características 
+CONCERTOS
+dia,  valor, descrição do serviço e oficina 
+
+
+
